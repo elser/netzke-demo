@@ -1,0 +1,203 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+pl:
+  action: Akcja
+  account_nr: Numer konta
+  admin: Administracja
+  agreement: Umowa
+  amount: Kwota netto
+  amount_to_pay: Kwota do zapłaty
+  amount_paid: Kwota zapłacona
+  amount_left_to_pay: Pozostało do zapłaty
+  attachment: Załącznik
+  audit: Zmiana
+  audits: Historia zmian
+  auditable: Id obiektu
+  auditable_type: Typ obiektu
+  audited_changes: Zmiany
+  bank_account_nr: Numer konta
+  bank_account__: Konto bankowe
+  bank_accounts: Konta bankowe
+  bank_department: Oddział banku
+  bank_settling_nr: Numer rozliczeniowy banku
+  bank_swift: Kod SWIFT
+  carer: Osoba odpowiedzialna
+  city: Miejscowość
+  code: Kod
+  comment: Komentarz
+  company_type: Typ działalności
+  company_branch: Rodzaj działalności
+  confirmed: Potwierdzony
+  contractor: Kontrahent
+  contractors: Kontrahenci
+  cost_title: Opis kosztu
+  country: Kraj
+  create: Utworzenie
+  created_at: Utworzono
+  created_by: Utworzył
+  currency_code: Kod waluty
+  current_sign_in_at: Data aktualnego zalogowania
+  current_sign_in_ip: IP aktualnego zalogowania
+  d_cost_type: Rodzaj kosztu
+  d_invoice_payment_status: Status
+  d_payment_form: Forma płatności
+  d_payment_status: Stan przelewu
+  d_payment_status_planned: Planowany
+  d_payment_status_to_send: Do wysłania
+  d_payment_status_send: Wysłany
+  d_payment_status_confirmed: Potwierdzony
+  delete: Usunięcie
+  department: Oddział
+  dicts: Słowniki
+  dict: Słownik
+  dictionary: Słownik
+  dictionaries: Słowniki
+  dict_name: Nazwa słownika
+  dict_name_cost_type: Rodzaj kosztu 
+  dict_name_invoice_payment_status: Status płatności 
+  dict_name_payment_status: Status przelewu 
+  dict_name_payment_form: Forma płatności
+  doc: Plik 
+  due_date: Termin płatności
+  email: Email
+  export_possible: Możliwość eksportu
+  fax: Fax
+  file: Plik
+  file_doc: Plik
+  file_docs: Pliki
+  file_document: Dokument
+  filename: Nazwa pliku
+  firstname: Imię
+  goods_type: Rodzaj towaru
+  group: Grupa
+  groups: Grupy
+  groups_roles: Grupy <-> Role
+  groups_users: Grupy <-> Użytkownicy
+  id: Id
+  is_functional: Funkcyjna
+  issued_at: Wystawiono
+  issuer: Sprzedawca
+  issuer__short_name: Sprzedawca
+  investor: Inwestor
+  invoice: Płatność
+  invoice_cost: Koszt
+  invoice_costs: Koszty
+  invoice_type: Typ płatności
+  invoice_types: Typy płatności
+  invoice__number: Numer płatności
+  invoices: Płatności
+  invoice_payment: Przelew
+  invoice_payment__amount: Kwota
+  invoice_payments: Przelewy
+  invoice_payments_status_import: Import statusu przelewów
+  key: Klucz
+  last_sign_in_at: Ostatnie zalogowanie
+  last_sign_in_ip: IP ostatniego zalogowania
+  lead_designer: Główny projektant
+  lastname: Nazwisko
+  login: Login
+  logout: Wyloguj
+  manage_roles: Zarządzaj rolami
+  manage_users: Zarządzaj użytkownikami
+  name: Nazwa
+  nid: Lotus id
+  nip: Nip
+  no_transfer_title: Brak tytułu przelewu
+  no_specified_bank_accounts: Brak określonych rachunków bankowych
+  no_value_in_config: Brak wartości w konfiguracji systemu
+  not_paid: Nie zapłacone
+  not_paid_single: Nie zapłacona
+  number: Numer
+  number__invoice: Numer faktury
+  offer: Oferta
+  old_code: Stary kod
+  obj: Id
+  obj_type: Typ obiektu
+  object: Obiekt
+  paid: Zapłacone
+  participant: Przydzielone do 
+  particulars: Szczegóły
+  password: Hasło
+  pay: Zapłaty
+  payments: Płatności
+  payment_date: Data płatności
+  payment_title: Tytułem
+  payment_type: Rodzaj płatności
+  phone: Telefon
+  pickup_workitem: Podnieś zadanie
+  products_and_services: Produkty i usługi
+  project: Projekt
+  project__code: Dot. projektu
+  project__title: Projekt
+  projects: Projekty
+  regon: Regon
+  remote_address: Adres IP
+  role: Rola
+  roles: Role
+  sell_invoices: Faktury sprzedaży
+  short_name: Nazwa skrócona
+  sign_in_count: Licznik logowań
+  start_date: Data startu
+  street_prefix: Typ ulicy
+  street: Ulica
+  subject: Tytułem
+  system_properties: Konfiguracja systemu
+  system_property: Element konfiguracji
+  task: Zadanie
+  title: Tytuł
+  type: Typ
+  update: Zmiana
+  updated_at: Zmodyfikowano
+  user: "Użytkownik"
+  users: "Użytkownicy"
+  user__login: "Użytkownik"
+  user_type: Typ użytkownika
+  username: Login
+  value: Wartość
+  vat_perc: Stawka VAT
+  version: Wersja
+  voivodeship: Województwo
+  website: Strona www
+  workitem: Dokument procesu
+  workitems: Dokumenty procesów
+  workitem_stores: Dokumenty procesów
+  workitem_put_time: Przekazano
+  zip: Kod pocztowy
+  
+  
+  activerecord:
+    models:
+      user: Użytkownik
+    attributes:
+      user:
+        login: Login
+        password: Hasło
+    errors:
+      messages:
+        blank: pusty
+  
+  netzke:
+    basepack:
+      form_panel:
+        apply: Zapisz
+        edit: Edytuj
+        cancel: Anuluj
+      grid_panel:
+        actions:
+          del: "Usuń"
+          add: Dodaj
+          edit: Edytuj
+          apply: Zapisz
+          apply_and_close: Zapisz i zamknij
+          add_in_form: Dodaj
+          edit_in_form: Edytuj
+          search: Szukaj
+        deleted_n_records: Usunięto {0} rekordów
+      generic:
+        are_you_sure: "Jesteś pewien(a)?"
+        confirm: Potwierdzenie operacji
+    formats:
+      date: Y-m-d
+      datetime: Y-m-d H:i:s
+      time: H:i:s
